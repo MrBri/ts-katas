@@ -41,6 +41,6 @@
     }
   },
   "lint-staged": {
-    "*.{ts,css,md}": "prettier --write"
+    "*.{ts,css,md}": "npx eslint --fix"
   }
 }
