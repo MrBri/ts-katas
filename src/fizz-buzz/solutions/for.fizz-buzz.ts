@@ -7,6 +7,7 @@ export function fizzBuzz(number: number) {
     if (isDivisibleByThree) {
       value += 'fizz'
     }
+
     if (isDivisibleByFive) {
       value += 'buzz'
     }
